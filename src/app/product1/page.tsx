@@ -147,6 +147,7 @@ function page() {
               <div className="p-4">
                 <h2 className="text-xl font-semibold mb-2">{snack.name}</h2>
                 <p className="text-gray-600">{snack.description}</p>
+                <p className="text-gray-600">₱100</p>
               </div>
               <div className="flex gap-4 p-3 text-xl">
                 <a className="hover:text-green-700" href="addtocart">

@@ -141,6 +141,7 @@ function page() {
               <div className="p-4">
                 <h2 className="text-xl font-semibold mb-2">{snack.name}</h2>
                 <p className="text-gray-600">{snack.description}</p>
+                <p className="text-lg font-semibold mb-4">₱100</p>
               </div>
             </div>
           ))}
