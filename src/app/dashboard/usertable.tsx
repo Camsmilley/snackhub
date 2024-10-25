@@ -1,4 +1,3 @@
-// src/components/UserTable.js
 import React from "react";
 
 const UserTable = () => {

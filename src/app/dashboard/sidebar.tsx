@@ -1,12 +1,7 @@
+// src/components/Sidebar.js
 import React from "react";
-import {
-  FaHome,
-  FaUser,
-  FaRegHeart,
-  FaUtensils,
-  FaCog,
-  FaSignOutAlt,
-} from "react-icons/fa";
+import { FaTachometerAlt, FaUsers, FaBox, FaSignOutAlt } from "react-icons/fa";
+import { FiShoppingCart } from "react-icons/fi";
 
 const Sidebar = () => {
   return (
@@ -17,7 +12,7 @@ const Sidebar = () => {
         </span>
         <span className="text-green-700 ">
           <a>Hub</a>
-        </span>
+        </span>{" "}
       </h2>
       <ul>
         <li className="mb-4">
@@ -25,7 +20,7 @@ const Sidebar = () => {
             href="#"
             className="flex items-center text-lg hover:text-green-700"
           >
-            <FaHome className="mr-4" />
+            <FaTachometerAlt className="mr-4" />
             Dashboard
           </a>
         </li>
@@ -34,32 +29,26 @@ const Sidebar = () => {
             href="#"
             className="flex items-center text-lg hover:text-green-700"
           >
-            <FaUser className="mr-4" />
-            My Profile
+            <FaUsers className="mr-4" />
+            Users
           </a>
         </li>
         <li className="mb-4">
-          <a href="#" className="flex items-center text-lg hover:text-red-700">
-            <FaRegHeart className="mr-4" />
-            Favorites
+          <a
+            href="/product1"
+            className="flex items-center text-lg hover:text-green-700"
+          >
+            <FaBox className="mr-4" />
+            Product
           </a>
         </li>
         <li className="mb-4">
           <a
             href="#"
-            className="flex items-center text-lg hover:text-yellow-500"
+            className="flex items-center text-lg hover:text-green-700"
           >
-            <FaUtensils className="mr-4" />
-            My Snacks
-          </a>
-        </li>
-        <li className="mb-4">
-          <a
-            href="#"
-            className="flex items-center text-lg hover:text-yellow-500"
-          >
-            <FaCog className="mr-4" />
-            Settings
+            <FiShoppingCart className="mr-4" />
+            Cart
           </a>
         </li>
         <li className="mt-8">

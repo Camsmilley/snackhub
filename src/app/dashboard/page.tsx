@@ -1,10 +1,11 @@
 // src/components/AdminDashboard.js
 import React from "react";
-import Sidebar from "../sidebar/page";
-import DashboardHeader from "../admindasheader/page";
-import UserTable from "../adminusertable/page";
-import SnackTable from "../snacktable/page";
-import OrderStats from "../orderstatus/page";
+
+import OrderStats from "./orderstatus";
+import UserTable from "./usertable";
+import SnackTable from "./snacktable";
+import Sidebar from "./sidebar";
+import DashboardHeader from "../user/userheader";
 
 const AdminDashboard = () => {
   return (

@@ -1,12 +1,12 @@
-// src/components/Sidebar.js
 import React from "react";
 import {
-  FaTachometerAlt,
-  FaUsers,
-  FaBox,
-  FaCog,
+  FaHome,
+  FaUser,
+  FaRegHeart,
+  FaUtensils,
   FaSignOutAlt,
 } from "react-icons/fa";
+import { FiShoppingCart } from "react-icons/fi";
 
 const Sidebar = () => {
   return (
@@ -17,7 +17,7 @@ const Sidebar = () => {
         </span>
         <span className="text-green-700 ">
           <a>Hub</a>
-        </span>{" "}
+        </span>
       </h2>
       <ul>
         <li className="mb-4">
@@ -25,7 +25,7 @@ const Sidebar = () => {
             href="#"
             className="flex items-center text-lg hover:text-green-700"
           >
-            <FaTachometerAlt className="mr-4" />
+            <FaHome className="mr-4" />
             Dashboard
           </a>
         </li>
@@ -34,26 +34,32 @@ const Sidebar = () => {
             href="#"
             className="flex items-center text-lg hover:text-green-700"
           >
-            <FaUsers className="mr-4" />
-            Users
+            <FaUser className="mr-4" />
+            My Profile
+          </a>
+        </li>
+        <li className="mb-4">
+          <a href="#" className="flex items-center text-lg hover:text-red-700">
+            <FaRegHeart className="mr-4" />
+            Favorites
           </a>
         </li>
         <li className="mb-4">
           <a
             href="#"
-            className="flex items-center text-lg hover:text-green-700"
+            className="flex items-center text-lg hover:text-yellow-500"
           >
-            <FaBox className="mr-4" />
-            Snacks
+            <FaUtensils className="mr-4" />
+            My Snacks
           </a>
         </li>
         <li className="mb-4">
           <a
             href="#"
-            className="flex items-center text-lg hover:text-green-700"
+            className="flex items-center text-lg hover:text-yellow-500"
           >
-            <FaCog className="mr-4" />
-            Settings
+            <FiShoppingCart className="mr-4" />
+            Cart
           </a>
         </li>
         <li className="mt-8">

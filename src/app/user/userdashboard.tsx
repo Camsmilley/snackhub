@@ -1,6 +1,6 @@
 import React from "react";
-import Sidebar from "../usersidebar/page";
-import DashboardHeader from "../dashheader/page";
+import Sidebar from "./usersidebar";
+import DashboardHeader from "./userheader";
 
 const UserDashboard = () => {
   const userSnacks = ["Chips", "Cookies", "Granola Bars", "Pretzels"];

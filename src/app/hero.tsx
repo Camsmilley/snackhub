@@ -22,7 +22,7 @@ const Hero = () => {
           Discover and enjoy the best snacks around
         </p>
         <Link
-          href="/explore"
+          href="/products"
           className="bg-yellow-500 text-white hover:bg-yellow-300 py-2 px-6 rounded-lg text-lg font-semibold"
         >
           Explore Now
